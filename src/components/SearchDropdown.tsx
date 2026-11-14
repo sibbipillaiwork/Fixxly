@@ -6,9 +6,6 @@ import { SolutionBundleCard } from './SolutionBundleCard';
 import { ProductCard } from './ProductCard';
 import { SearchDropdownSkeleton } from './SkeletonLoader';
 import {
-  TrendingUp,
-  History,
-  Sparkles,
   ChevronLeft,
   ChevronRight,
   ArrowRight
@@ -139,11 +136,7 @@ export const SearchDropdown: React.FC<SearchDropdownProps> = ({
           {recentSearches.length > 0 && (
             <div>
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center gap-1.5">
-                  <span className="w-4 h-4 rounded-full bg-blue-50 text-[#0b1d3a] flex items-center justify-center text-[10px] font-black">
-                    1
-                  </span>
-                  <History className="w-3.5 h-3.5 text-gray-400" />
+                <span className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                   Recent Searches
                 </span>
                 <button
@@ -160,10 +153,9 @@ export const SearchDropdown: React.FC<SearchDropdownProps> = ({
                     key={term}
                     type="button"
                     onClick={() => onSelectSearchTerm(term)}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gray-100 hover:bg-orange-50 hover:text-[#ff6b00] border border-gray-200 hover:border-orange-200 text-xs font-medium text-gray-700 transition-colors cursor-pointer"
+                    className="inline-flex items-center px-3 py-1.5 rounded-full bg-gray-100 hover:bg-orange-50 hover:text-[#ff6b00] border border-gray-200 hover:border-orange-200 text-xs font-medium text-gray-700 transition-colors cursor-pointer"
                   >
                     <span>{term}</span>
-                    <History className="w-3 h-3 text-gray-400" />
                   </button>
                 ))}
               </div>
@@ -173,11 +165,7 @@ export const SearchDropdown: React.FC<SearchDropdownProps> = ({
           {/* SECTION 2: POPULAR SEARCHES */}
           <div>
             <div className="flex items-center justify-between mb-2.5">
-              <span className="text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center gap-1.5">
-                <span className="w-4 h-4 rounded-full bg-orange-50 text-[#ff6b00] flex items-center justify-center text-[10px] font-black">
-                  2
-                </span>
-                <TrendingUp className="w-3.5 h-3.5 text-[#ff6b00]" />
+              <span className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Popular Searches
               </span>
               <span className="text-[11px] text-gray-400">Trending Contractor Prompts</span>
@@ -187,14 +175,11 @@ export const SearchDropdown: React.FC<SearchDropdownProps> = ({
                 <button
                   key={item.term}
                   type="button"
-                  onClick={() => onSelectSearchTerm(item.term)}
-                  className="p-2.5 text-left rounded-xl border border-gray-200 hover:border-[#ff6b00] hover:bg-orange-50/40 transition-all cursor-pointer group shadow-2xs"
+                  onClick={() => onSelectSearchTerm(item.properName)}
+                  className="p-2.5 sm:py-3 text-left rounded-xl border border-gray-200 hover:border-[#ff6b00] hover:bg-orange-50/40 transition-all cursor-pointer group shadow-2xs"
                 >
                   <div className="text-xs font-bold text-[#0b1d3a] group-hover:text-[#ff6b00] line-clamp-1">
-                    "{item.term}"
-                  </div>
-                  <div className="text-[10px] text-gray-400 mt-0.5">
-                    {item.note}
+                    {item.properName}
                   </div>
                 </button>
               ))}
@@ -204,11 +189,7 @@ export const SearchDropdown: React.FC<SearchDropdownProps> = ({
           {/* SECTION 3: RECOMMENDED FOR YOU (Auto-scrolls every 7 seconds • Pauses on hover) */}
           <div className="pt-3 border-t border-gray-100">
             <div className="flex items-center justify-between mb-2.5">
-              <span className="text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center gap-1.5">
-                <span className="w-4 h-4 rounded-full bg-emerald-50 text-emerald-700 flex items-center justify-center text-[10px] font-black">
-                  3
-                </span>
-                <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
+              <span className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Recommended For You
               </span>
               <div className="flex items-center gap-1">
@@ -322,10 +303,7 @@ export const SearchDropdown: React.FC<SearchDropdownProps> = ({
           {/* Product Results Grid (Spacious 2-Column Clean Layout) */}
           <div className="p-3">
             <div className="flex items-center justify-between mb-2.5 px-0.5">
-              <span className="text-xs font-bold text-gray-700 uppercase tracking-wider flex items-center gap-1.5">
-                <span className="w-4 h-4 rounded-full bg-green-50 text-green-700 flex items-center justify-center text-[10px] font-black">
-                  3
-                </span>
+              <span className="text-xs font-bold text-gray-700 uppercase tracking-wider">
                 Search Results ({displayedItems.length})
               </span>
               <span className="text-[11px] font-semibold text-green-700 flex items-center gap-1">

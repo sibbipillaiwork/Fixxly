@@ -971,27 +971,34 @@ export const SOLUTION_BUNDLES: Record<string, SolutionBundle> = {
   }
 };
 
-export const POPULAR_SEARCH_TERMS = [
-  { term: "pipe ka ring", label: "pipe ka ring", note: "Rubber Gaskets" },
-  { term: "paani nahi aa raha", label: "paani nahi aa raha", note: "Water Flow Kit" },
-  { term: "pidipruf", label: "pidipruf", note: "Waterproofing" },
-  { term: "tap leaking", label: "tap leaking", note: "Repair Kit" },
-  { term: "dhaga tape", label: "dhaga tape", note: "Teflon Thread Seal" },
-  { term: "mcb trip", label: "mcb trip", note: "Electrical Breaker" },
-  { term: "pipe", label: "pipe", note: "CPVC & UPVC Pipes" },
-  { term: "fevicol 1kg", label: "fevicol 1kg", note: "Wood Adhesive" },
-  { term: "m-seal", label: "m-seal", note: "Epoxy Putty" },
-  { term: "cutting wheel", label: "cutting wheel", note: "Power Tools" },
-  { term: "deewar ki seelan", label: "deewar ki seelan", note: "Seepage Defense" },
-  { term: "toti leakage", label: "toti leakage", note: "Brass Tap Fix" },
-  { term: "taar 1.5mm", label: "taar 1.5mm", note: "Finolex Wire Coil" },
-  { term: "short circuit", label: "short circuit", note: "Circuit Repair" },
-  { term: "deewar ki darar", label: "deewar ki darar", note: "Crack-X Filler" },
-  { term: "basin leak", label: "basin leak", note: "Wash Basin Plumbing" },
-  { term: "skru", label: "skru", note: "Drywall Screws" },
-  { term: "loha cutting", label: "loha cutting", note: "Bosch Metal Disc" },
-  { term: "saria 12mm", label: "saria 12mm", note: "Tata Tiscon Rebar" },
-  { term: "pana / wrench", label: "pana / wrench", note: "Pipe Wrench" }
+export interface PopularSearchTerm {
+  term: string;
+  label: string;
+  properName: string;
+  note: string;
+}
+
+export const POPULAR_SEARCH_TERMS: PopularSearchTerm[] = [
+  { term: "pipe ka ring", label: "Rubber Gasket O-Rings", properName: "Rubber Gasket O-Rings", note: "Plumbing & Gaskets" },
+  { term: "paani nahi aa raha", label: "Tap & Water Flow Kit", properName: "Tap & Water Flow Kit", note: "Water Flow Restoration" },
+  { term: "pidipruf", label: "Dr. Fixit Pidiproof LW+", properName: "Dr. Fixit Pidiproof LW+", note: "Waterproofing Chemical" },
+  { term: "tap leaking", label: "Brass Tap & Leak Repair Kit", properName: "Brass Tap & Leak Repair Kit", note: "Plumbing Repair Kit" },
+  { term: "dhaga tape", label: "PTFE Teflon Thread Tape", properName: "PTFE Teflon Thread Tape", note: "Thread Seal Tape" },
+  { term: "mcb trip", label: "Havells Single Pole MCB", properName: "Havells Single Pole MCB", note: "Electrical Circuit Breaker" },
+  { term: "pipe", label: "Ashirvad CPVC & UPVC Pipes", properName: "Ashirvad CPVC & UPVC Pipes", note: "CPVC & UPVC Plumbing" },
+  { term: "fevicol 1kg", label: "Fevicol SH Wood Adhesive", properName: "Fevicol SH Wood Adhesive", note: "Wood & Carpentry Adhesive" },
+  { term: "m-seal", label: "M-Seal Epoxy Putty", properName: "M-Seal Epoxy Putty", note: "Multi-surface Epoxy Putty" },
+  { term: "cutting wheel", label: "Metal Cutting Wheel Disc", properName: "Metal Cutting Wheel Disc", note: "Power Tool Cutting Disc" },
+  { term: "deewar ki seelan", label: "Dr. Fixit Seepage Defense", properName: "Dr. Fixit Seepage Defense", note: "Wall Damp & Seepage Fix" },
+  { term: "toti leakage", label: "Brass Bib Tap & Spindle", properName: "Brass Bib Tap & Spindle", note: "Brass Sanitary Fittings" },
+  { term: "taar 1.5mm", label: "Finolex 1.5mm FR Wire", properName: "Finolex 1.5mm FR Wire", note: "Electrical Copper Wiring" },
+  { term: "short circuit", label: "Circuit Repair & MCB Kit", properName: "Circuit Repair & MCB Kit", note: "Electrical Safety Kit" },
+  { term: "deewar ki darar", label: "Dr. Fixit Crack-X Paste", properName: "Dr. Fixit Crack-X Paste", note: "Wall Crack Waterproof Filler" },
+  { term: "basin leak", label: "Wash Basin Sanitary Kit", properName: "Wash Basin Sanitary Kit", note: "Sanitary Coupling & Trap" },
+  { term: "skru", label: "Gyproc Drywall Screws", properName: "Gyproc Drywall Screws", note: "Self-Tapping Fasteners" },
+  { term: "loha cutting", label: "Bosch Metal Cutting Disc", properName: "Bosch Metal Cutting Disc", note: "4\" Inox Cutting Disc" },
+  { term: "saria 12mm", label: "Tata Tiscon 12mm Rebar", properName: "Tata Tiscon 12mm Rebar", note: "550D TMT Construction Steel" },
+  { term: "pana / wrench", label: "Taparia Pipe Wrench 10\"", properName: "Taparia Pipe Wrench 10\"", note: "Heavy-Duty Pipe Wrench" }
 ];
 
 export const QUICK_CATEGORIES = [

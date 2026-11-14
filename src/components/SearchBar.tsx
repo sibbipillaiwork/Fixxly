@@ -21,7 +21,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({
   isFocused,
   onOpenVoice,
   onOpenPhoto,
-  placeholder = 'Search "pipe ka ring", "pidipruf", "tap leaking"...',
+  placeholder = 'Search...',
   onKeyDown
 }) => {
   const inputRef = useRef<HTMLInputElement>(null);

@@ -12,8 +12,6 @@ import {
   Mic,
   Camera,
   ArrowLeft,
-  History,
-  TrendingUp,
   ChevronDown,
   ChevronUp
 } from 'lucide-react';
@@ -118,7 +116,7 @@ export const MobileSearchPage: React.FC<MobileSearchPageProps> = ({
             type="text"
             value={query}
             onChange={(e) => onQueryChange(e.target.value)}
-            placeholder='Search "pipe ka ring", "pidipruf"...'
+            placeholder="Search..."
             className="w-full py-2.5 text-xs font-semibold text-[#111827] placeholder:text-gray-400 bg-transparent outline-none truncate"
           />
 
@@ -167,14 +165,9 @@ export const MobileSearchPage: React.FC<MobileSearchPageProps> = ({
         {hasQuery && (
           <section className="p-3 bg-[#f8f9fa] space-y-3">
             <div className="flex items-center justify-between">
-              <div className="flex items-center gap-1.5">
-                <span className="w-5 h-5 rounded-full bg-green-50 text-green-700 flex items-center justify-center text-[10px] font-black">
-                  ✓
-                </span>
-                <h3 className="text-xs font-bold uppercase tracking-wider text-gray-800">
-                  Search Results for "{query}"
-                </h3>
-              </div>
+              <h3 className="text-xs font-bold uppercase tracking-wider text-gray-800">
+                Search Results for "{query}"
+              </h3>
               <span className="text-[10px] font-semibold text-green-700 bg-green-50 px-2 py-0.5 rounded-full border border-green-200">
                 30-Min Delivery
               </span>
@@ -295,15 +288,9 @@ export const MobileSearchPage: React.FC<MobileSearchPageProps> = ({
             {recentSearches.length > 0 && (
               <section className="p-3 bg-white">
                 <div className="flex items-center justify-between mb-2">
-                  <div className="flex items-center gap-1.5">
-                    <span className="w-5 h-5 rounded-full bg-blue-50 text-[#0b1d3a] flex items-center justify-center text-[10px] font-black">
-                      1
-                    </span>
-                    <h3 className="text-xs font-bold uppercase tracking-wider text-gray-700 flex items-center gap-1">
-                      <History className="w-3.5 h-3.5 text-gray-400" />
-                      Recent Searches
-                    </h3>
-                  </div>
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-gray-700">
+                    Recent Searches
+                  </h3>
                   <button
                     type="button"
                     onClick={onClearRecent}
@@ -319,9 +306,8 @@ export const MobileSearchPage: React.FC<MobileSearchPageProps> = ({
                       key={term}
                       type="button"
                       onClick={() => onSelectSearchTerm(term)}
-                      className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-gray-100 hover:bg-orange-50 hover:text-[#ff6b00] hover:border-orange-200 border border-gray-200 text-xs font-medium text-gray-700 transition-all cursor-pointer"
+                      className="inline-flex items-center px-2.5 py-1 rounded-full bg-gray-100 hover:bg-orange-50 hover:text-[#ff6b00] hover:border-orange-200 border border-gray-200 text-xs font-medium text-gray-700 transition-all cursor-pointer"
                     >
-                      <History className="w-3 h-3 text-gray-400 shrink-0" />
                       <span className="truncate max-w-[140px]">{term}</span>
                     </button>
                   ))}
@@ -332,15 +318,9 @@ export const MobileSearchPage: React.FC<MobileSearchPageProps> = ({
             {/* SECTION 2: POPULAR SEARCHES */}
             <section className="p-3 bg-white">
               <div className="flex items-center justify-between mb-2">
-                <div className="flex items-center gap-1.5">
-                  <span className="w-5 h-5 rounded-full bg-orange-50 text-[#ff6b00] flex items-center justify-center text-[10px] font-black">
-                    2
-                  </span>
-                  <h3 className="text-xs font-bold uppercase tracking-wider text-gray-700 flex items-center gap-1">
-                    <TrendingUp className="w-3.5 h-3.5 text-[#ff6b00]" />
-                    Popular Searches
-                  </h3>
-                </div>
+                <h3 className="text-xs font-bold uppercase tracking-wider text-gray-700">
+                  Popular Searches
+                </h3>
                 <span className="text-[10px] text-gray-400 font-medium">Top Contractor Prompts</span>
               </div>
 
@@ -349,15 +329,10 @@ export const MobileSearchPage: React.FC<MobileSearchPageProps> = ({
                   <button
                     key={item.term}
                     type="button"
-                    onClick={() => onSelectSearchTerm(item.term)}
-                    className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-gray-50 hover:bg-orange-50 border border-gray-200 hover:border-orange-300 text-xs text-gray-800 hover:text-[#ff6b00] transition-all cursor-pointer group shadow-2xs"
+                    onClick={() => onSelectSearchTerm(item.properName)}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-50 hover:bg-orange-50 border border-gray-200 hover:border-orange-300 text-xs font-bold text-gray-800 hover:text-[#ff6b00] transition-all cursor-pointer group shadow-2xs"
                   >
-                    <span className="font-semibold text-[#0b1d3a] group-hover:text-[#ff6b00]">
-                      "{item.term}"
-                    </span>
-                    <span className="text-[10px] text-gray-400 group-hover:text-orange-500 font-normal">
-                      • {item.note}
-                    </span>
+                    <span>{item.properName}</span>
                   </button>
                 ))}
               </div>

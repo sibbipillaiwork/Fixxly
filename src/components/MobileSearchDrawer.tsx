@@ -93,7 +93,7 @@ export const MobileSearchDrawer: React.FC<MobileSearchDrawerProps> = ({
               type="text"
               value={query}
               onChange={(e) => onQueryChange(e.target.value)}
-              placeholder='Search "pipe ka ring", "pidipruf"...'
+              placeholder="Search..."
               className="w-full py-2.5 text-xs font-medium text-[#111827] placeholder:text-[#6b7280] bg-transparent outline-none truncate"
             />
 
@@ -164,14 +164,11 @@ export const MobileSearchDrawer: React.FC<MobileSearchDrawerProps> = ({
                   <button
                     key={item.term}
                     type="button"
-                    onClick={() => onSelectSearchTerm(item.term)}
-                    className="p-2.5 text-left rounded-xl bg-white border border-gray-200"
+                    onClick={() => onSelectSearchTerm(item.properName)}
+                    className="p-2.5 sm:py-3 text-left rounded-xl bg-white border border-gray-200 hover:border-[#ff6b00]"
                   >
                     <div className="text-xs font-bold text-[#0b1d3a] line-clamp-1">
-                      "{item.term}"
-                    </div>
-                    <div className="text-[10px] text-gray-400">
-                      {item.note}
+                      {item.properName}
                     </div>
                   </button>
                 ))}

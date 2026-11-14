@@ -84,7 +84,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <div className="flex items-center gap-2 min-w-0">
               <Search className="w-4 h-4 text-[#ff6b00] shrink-0" />
               <span className="text-xs font-semibold truncate text-gray-600">
-                {currentQuery ? currentQuery : 'Search "pipe ka ring", "pidipruf"...'}
+                {currentQuery ? currentQuery : 'Search...'}
               </span>
             </div>
             <div className="flex items-center gap-1.5 text-gray-400 shrink-0">
