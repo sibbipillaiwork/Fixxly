@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f1f5f9"/></radialGradient>
+    <linearGradient id="pipeBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="30%" stop-color="#fde68a"/>
+      <stop offset="70%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.2"/></filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#shadow)" transform="rotate(-30 200 200)">
+    <!-- Main 1" CPVC Pipe Tube -->
+    <rect x="50" y="165" width="300" height="70" rx="10" fill="url(#pipeBody)" stroke="#d97706" stroke-width="2"/>
+    <!-- Red Characteristic CPVC Line -->
+    <rect x="50" y="195" width="300" height="10" fill="#dc2626"/>
+    <!-- End collar -->
+    <rect x="40" y="158" width="25" height="84" rx="6" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+    <ellipse cx="40" cy="200" rx="10" ry="42" fill="#78350f"/>
+    <!-- Brand text along pipe -->
+    <text x="210" y="185" font-family="Inter, sans-serif" font-size="11" font-weight="900" fill="#78350f" letter-spacing="1">ASHIRVAD FLOWGUARD PLUS CPVC 1" SDR 11</text>
+  </g>
+  <rect x="80" y="335" width="240" height="34" rx="17" fill="#0b1d3a" opacity="0.95"/>
+  <text x="200" y="357" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">ASHIRVAD CPVC PIPE 1"</text>
+</svg>

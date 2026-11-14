@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </radialGradient>
+    <linearGradient id="packGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <filter id="packShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="12" flood-color="#7f1d1d" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- M-Seal Pack Shape -->
+  <g filter="url(#packShadow)" transform="translate(60, 70) rotate(-6 140 110)">
+    <rect x="20" y="20" width="240" height="180" rx="14" fill="url(#packGrad)" stroke="#7f1d1d" stroke-width="2"/>
+    
+    <!-- White Angular Cut -->
+    <path d="M 20 20 L 260 20 L 260 90 L 20 140 Z" fill="#ffffff"/>
+
+    <!-- Brand Typography -->
+    <text x="140" y="75" font-family="Inter, system-ui, sans-serif" font-size="34" font-weight="900" fill="#dc2626" text-anchor="middle" font-style="italic">M-SEAL</text>
+    <text x="140" y="105" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#0b1d3a" text-anchor="middle">REGULAR EPOXY PUTTY</text>
+
+    <!-- Two Sticks Visuals -->
+    <rect x="45" y="145" width="85" height="28" rx="6" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="87" y="163" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="800" fill="#ffffff" text-anchor="middle">RESIN</text>
+
+    <rect x="145" y="145" width="85" height="28" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="187" y="163" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="800" fill="#0f172a" text-anchor="middle">HARDENER</text>
+
+    <!-- Weight Badge -->
+    <circle cx="230" cy="50" r="18" fill="#fbbf24"/>
+    <text x="230" y="54" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="900" fill="#0b1d3a" text-anchor="middle">90g</text>
+  </g>
+
+  <rect x="90" y="340" width="220" height="30" rx="15" fill="#dc2626"/>
+  <text x="200" y="360" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">SEALS LEAKS IN 90 MINS</text>
+</svg>

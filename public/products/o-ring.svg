@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f1f5f9"/>
+    </radialGradient>
+    <radialGradient id="rubberRing" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="40%" stop-color="#1e293b"/>
+      <stop offset="85%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="highlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#334155" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  
+  <!-- Outer secondary o-ring -->
+  <g filter="url(#shadow)" opacity="0.85" transform="translate(60, 40) rotate(-15 150 150)">
+    <circle cx="150" cy="150" r="110" fill="none" stroke="url(#rubberRing)" stroke-width="26"/>
+    <circle cx="150" cy="150" r="110" fill="none" stroke="url(#highlight)" stroke-width="4"/>
+  </g>
+
+  <!-- Main primary o-ring -->
+  <g filter="url(#shadow)">
+    <circle cx="200" cy="200" r="100" fill="none" stroke="url(#rubberRing)" stroke-width="32"/>
+    <circle cx="200" cy="200" r="100" fill="none" stroke="url(#highlight)" stroke-width="6"/>
+  </g>
+
+  <!-- Third small o-ring -->
+  <g filter="url(#shadow)" transform="translate(50, 70) scale(0.65)">
+    <circle cx="200" cy="200" r="80" fill="none" stroke="url(#rubberRing)" stroke-width="28"/>
+    <circle cx="200" cy="200" r="80" fill="none" stroke="url(#highlight)" stroke-width="4"/>
+  </g>
+
+  <!-- Spec Label Pill -->
+  <rect x="90" y="335" width="220" height="34" rx="17" fill="#0b1d3a" opacity="0.95"/>
+  <text x="200" y="357" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">ASHIRVAD EPDM O-RINGS</text>
+</svg>

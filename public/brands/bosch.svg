@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="100%" height="100%">
+  <!-- Bosch Power Tools Iconic Magneto Emblem + Bold Typography -->
+  <g transform="translate(10, 8)">
+    <!-- Bosch Circular Armature Magneto Symbol -->
+    <circle cx="22" cy="22" r="18" fill="none" stroke="#e11d48" stroke-width="4"/>
+    <rect x="8" y="19" width="28" height="6" fill="#e11d48"/>
+    <circle cx="22" cy="22" r="5" fill="#e11d48"/>
+
+    <!-- Wordmark "BOSCH" -->
+    <text x="52" y="30" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="900" fill="#0f172a" letter-spacing="1">BOSCH</text>
+    <text x="53" y="41" font-family="Inter, system-ui, sans-serif" font-size="7" font-weight="800" fill="#e11d48" letter-spacing="2">POWER TOOLS</text>
+  </g>
+</svg>

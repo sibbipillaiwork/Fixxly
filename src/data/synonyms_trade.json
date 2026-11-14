@@ -1,0 +1,720 @@
+{
+  "mappings": [
+    {
+      "slang_or_misspelling": "paani nahib aara ha",
+      "canonical_query": "brass tap ball valve water flow pipe",
+      "display_term": "Tap & Water Flow Restoration Kit",
+      "category_id": "plumbing-fittings",
+      "is_problem": true,
+      "problem_title": "Fix Low Water Pressure & Blocked Taps in 30 Mins",
+      "bundle_id": "BUNDLE_NO_WATER",
+      "aliases": [
+        "paani nahib aara ha",
+        "paani nahib aa raha",
+        "paani nahi aa raha hai",
+        "paani nahi aa raha",
+        "paani nahi aaraha",
+        "pani nahi aa raha",
+        "pani nahi aara",
+        "pani nahi ara",
+        "pani nai ara",
+        "pani nhi aa rha",
+        "pani nhi aara",
+        "nal me pani nahi aa raha",
+        "nal se paani nahi aa raha",
+        "nal me paani nahi aara",
+        "nal me pani nahi araha",
+        "nal se pani nahi araha",
+        "water not coming",
+        "tap not working",
+        "low water pressure",
+        "pani band ho gaya",
+        "paani band ho gaya",
+        "paani aana band ho gaya",
+        "nal jam ho gaya",
+        "pressure kam hai",
+        "paani slow aa raha hai",
+        "paani bilkul band hai",
+        "nal me kachra jam gaya",
+        "tanki me se pani nahi aaraha",
+        "water supply band hai"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pipe ka ring",
+      "canonical_query": "rubber gasket o-ring plumbing",
+      "display_term": "Rubber Gasket O-Ring",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "pipe ring",
+        "pipe ki rubber",
+        "nal ring",
+        "pipe washer",
+        "nal ka washer",
+        "rubber ring",
+        "pipe gaddi",
+        "gasket ring",
+        "o-ring pack",
+        "nal washer"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pidipruf",
+      "canonical_query": "Dr. Fixit Pidiproof LW+ waterproofing",
+      "display_term": "Dr. Fixit Pidiproof LW+",
+      "category_id": "waterproofing-chemicals",
+      "is_problem": false,
+      "aliases": [
+        "pideeproof",
+        "pidiproof",
+        "pidipruff",
+        "pidi proof",
+        "dr fixit liquid",
+        "water proofing chemical",
+        "cement chemical",
+        "waterproofing liquid",
+        "pidilite waterproofing"
+      ]
+    },
+    {
+      "slang_or_misspelling": "tap leaking",
+      "canonical_query": "tap leakage repair solution bundle",
+      "display_term": "Tap Leakage Quick Fix Bundle",
+      "category_id": "plumbing-fittings",
+      "is_problem": true,
+      "problem_title": "Fix Dripping or Leaking Taps in 30 Mins",
+      "bundle_id": "BUNDLE_TAP_LEAK",
+      "aliases": [
+        "leaking tap",
+        "nal leak",
+        "nal tapak raha hai",
+        "nal se pani tapak raha",
+        "nal se paani tapak raha hai",
+        "water drip tap",
+        "tap leak",
+        "nal tapakna",
+        "leak tap",
+        "tap se pani gir raha hai",
+        "nal me leak hai",
+        "nal band nahi ho raha"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pipe phat gaya",
+      "canonical_query": "ashirvad cpvc pipe solvent cement mseal",
+      "display_term": "CPVC Pipe Burst & Joint Repair",
+      "category_id": "plumbing-fittings",
+      "is_problem": true,
+      "problem_title": "Emergency Burst Pipe & Joint Repair",
+      "bundle_id": "BUNDLE_TAP_LEAK",
+      "aliases": [
+        "pipe phat gaya",
+        "pipe toot gaya",
+        "pipe leak ho gaya",
+        "pipe tut gaya",
+        "pipe fat gaya",
+        "pipe fatt gaya",
+        "pipe jodna hai",
+        "broken pipe",
+        "pipe crack",
+        "pipe repair",
+        "pipe blast",
+        "pipe me hole ho gaya",
+        "pipe se pani phoot gaya",
+        "nal tut gaya pipe me"
+      ]
+    },
+    {
+      "slang_or_misspelling": "water leakage",
+      "canonical_query": "waterproofing wall seepage fix bundle",
+      "display_term": "Damp & Seepage Waterproofing Bundle",
+      "category_id": "waterproofing-chemicals",
+      "is_problem": true,
+      "problem_title": "Stop Wall Seepage & Ceiling Dampness",
+      "bundle_id": "BUNDLE_SEEPAGE_FIX",
+      "aliases": [
+        "wall seepage",
+        "chhat tapakna",
+        "deewar nami",
+        "dampness",
+        "seepage solution",
+        "seelan",
+        "silan",
+        "deewar me seelan",
+        "deewar ki seelan",
+        "nami aa rahi hai",
+        "palan",
+        "chhat tapak rahi hai",
+        "chhat se paani tapak raha",
+        "chhat se pani gir raha hai",
+        "diwar geeli ho rahi hai",
+        "seelan kaise theek kare",
+        "bathroom seelan",
+        "ghar me seelan"
+      ]
+    },
+    {
+      "slang_or_misspelling": "mcb trip",
+      "canonical_query": "havells mcb anchor switch electrical copper wire",
+      "display_term": "Havells MCB & Electrical Circuit Kit",
+      "category_id": "electricals-wiring",
+      "is_problem": true,
+      "problem_title": "Fix Frequent MCB Tripping & Switch Faults",
+      "bundle_id": "BUNDLE_MCB_TRIP",
+      "aliases": [
+        "mcb trip",
+        "mcb gir gayi",
+        "mcb gir gyi",
+        "mcb gir rahi hai",
+        "mcb baar baar gir rahi hai",
+        "mcb baar baar girti hai",
+        "bijli chali gayi",
+        "circuit trip",
+        "switch jal gaya",
+        "fuse ud gaya",
+        "short circuit",
+        "short circuit ho gaya",
+        "light trip ho gayi",
+        "light baar baar jaati hai",
+        "breaker trip",
+        "sparking ho rahi hai"
+      ]
+    },
+    {
+      "slang_or_misspelling": "cement paint",
+      "canonical_query": "exterior distemper cement paint",
+      "display_term": "Exterior Acrylic Distemper / Primer",
+      "category_id": "paints-finishes",
+      "is_problem": false,
+      "aliases": [
+        "safedi paint",
+        "chuna paint",
+        "chuna",
+        "distemper",
+        "chuna safedi",
+        "white paint",
+        "safedi"
+      ]
+    },
+    {
+      "slang_or_misspelling": "fevikol",
+      "canonical_query": "fevicol synthetic resin wood adhesive",
+      "display_term": "Fevicol Wood Adhesives & Brushes",
+      "category_id": "adhesives-sealants",
+      "is_problem": false,
+      "aliases": [
+        "fevikol",
+        "favicol",
+        "favikol",
+        "lakdi glue",
+        "wood glue",
+        "lakdi chipkane wala",
+        "sunmica glue",
+        "fevicol 1kg",
+        "fevicol sh",
+        "plywood glue",
+        "fevicol brush"
+      ]
+    },
+    {
+      "slang_or_misspelling": "m-seal",
+      "canonical_query": "pidilite m-seal epoxy sealant compound",
+      "display_term": "M-Seal Epoxy Compound",
+      "category_id": "adhesives-sealants",
+      "is_problem": false,
+      "aliases": [
+        "mseal",
+        "emseal",
+        "m seal",
+        "leakage mseal",
+        "putty leak",
+        "leakage putty",
+        "epoxy putty",
+        "leakage band karne wala"
+      ]
+    },
+    {
+      "slang_or_misspelling": "teflon",
+      "canonical_query": "ptfe teflon thread seal plumbing tape",
+      "display_term": "PTFE Teflon Thread Tape",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "dhaga tape",
+        "dhaaga tape",
+        "thread tape",
+        "plumber tape",
+        "white tape",
+        "safed tape",
+        "taflon",
+        "nal wala tape",
+        "pipe tape"
+      ]
+    },
+    {
+      "slang_or_misspelling": "cutting wheel",
+      "canonical_query": "bosch 4 inch diamond abrasive cutting wheel disc",
+      "display_term": "Diamond Cutting Wheel 4\"",
+      "category_id": "power-tools",
+      "is_problem": false,
+      "aliases": [
+        "grinder blade",
+        "iron cutter blade",
+        "marble cutting blade",
+        "patthar blade",
+        "patthar kaatne wala blade",
+        "glinder blade",
+        "cutter blade",
+        "tile cutter blade",
+        "marble disc"
+      ]
+    },
+    {
+      "slang_or_misspelling": "wire 1.5",
+      "canonical_query": "finolex 1.5 sq mm fr pvc insulated electrical copper wire",
+      "display_term": "Finolex 1.5 sq mm FR Wire",
+      "category_id": "electricals-wiring",
+      "is_problem": false,
+      "aliases": [
+        "taar 1.5",
+        "bijli taar",
+        "wiring wire 1.5",
+        "1.5 switch wire",
+        "bijli ka taar",
+        "copper taar",
+        "copper wire",
+        "finolex wire",
+        "1.5 wire"
+      ]
+    },
+    {
+      "slang_or_misspelling": "elbow 1 inch",
+      "canonical_query": "ashirvad flowguard cpvc 90 degree elbow 1 inch",
+      "display_term": "CPVC 90° Elbow 1\"",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "cpvc elbow",
+        "1 inch elbow",
+        "pipe bend",
+        "pipe modna",
+        "90 degree elbow",
+        "ashirvad elbow"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pipe wrench",
+      "canonical_query": "taparia 10 inch pipe wrench adjustable plumbing",
+      "display_term": "Taparia Pipe Wrench 10\"",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "pipe kholne wala",
+        "pipe pana",
+        "pipe paana",
+        "pipe pakadne wala",
+        "wrench",
+        "renche",
+        "pana",
+        "taparia wrench",
+        "plumbing wrench"
+      ]
+    },
+    {
+      "slang_or_misspelling": "sariya",
+      "canonical_query": "tata tiscon 550d tmt rebar steel rod 12mm",
+      "display_term": "Tata Tiscon TMT Rebar 12mm",
+      "category_id": "steel-aggregates",
+      "is_problem": false,
+      "aliases": [
+        "tmt sariya",
+        "lohe ka rod",
+        "tmt bar",
+        "construction iron",
+        "chhat ka sariya",
+        "lohe ka sariya",
+        "12mm sariya",
+        "tiscon sariya"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pipe glue",
+      "canonical_query": "cpvc solvent cement pipe adhesive",
+      "display_term": "CPVC Solvent Cement",
+      "category_id": "adhesives-sealants",
+      "is_problem": false,
+      "aliases": [
+        "pvc solvent",
+        "cpvc solution",
+        "pipe chipkane wala",
+        "astral weld on",
+        "solvant",
+        "solwent",
+        "solvent cement",
+        "pipe jodne wala cement"
+      ]
+    },
+    {
+      "slang_or_misspelling": "skru",
+      "canonical_query": "gyproc prox drywall self tapping screws fasteners",
+      "display_term": "Gyproc Drywall Self-Tapping Screws",
+      "category_id": "fasteners-hardware",
+      "is_problem": false,
+      "aliases": [
+        "skru",
+        "pech",
+        "star pech",
+        "deewar me screw",
+        "screw pack",
+        "drywall screw",
+        "black screw",
+        "lohe ka screw",
+        "gyproc screw",
+        "false ceiling screw"
+      ]
+    },
+    {
+      "slang_or_misspelling": "switch",
+      "canonical_query": "anchor roma 6a 1 way modular switch",
+      "display_term": "Anchor Roma 6A Modular Switch",
+      "category_id": "electricals-wiring",
+      "is_problem": false,
+      "aliases": [
+        "switch kharab ho gaya",
+        "bijli ka button",
+        "light ka switch",
+        "board ka button",
+        "roma switch",
+        "anchor switch",
+        "modular switch",
+        "switch badalna hai",
+        "switchboard button"
+      ]
+    },
+    {
+      "slang_or_misspelling": "nal",
+      "canonical_query": "cera brass bib cock water tap",
+      "display_term": "Cera Brass Bib Cock Water Tap",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "nal badalna hai",
+        "naya nal",
+        "paani ka nal",
+        "nal slip ho gaya",
+        "nal ghum raha hai",
+        "brass nal",
+        "bib cock",
+        "pital ka nal",
+        "water tap",
+        "nal tut gaya"
+      ]
+    },
+    {
+      "slang_or_misspelling": "valve",
+      "canonical_query": "supreme pvc heavy duty compact ball valve 1 inch",
+      "display_term": "Supreme PVC Ball Valve 1\"",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "paani band karne wala",
+        "paani band karne wala valve",
+        "tanki ka valve",
+        "paani band karna hai",
+        "tanki band karne wala",
+        "pipe valve",
+        "pvc ball valve",
+        "ball valve 1 inch",
+        "pani control valve",
+        "main valve"
+      ]
+    },
+    {
+      "slang_or_misspelling": "crack paste",
+      "canonical_query": "dr fixit crack x paste waterproof crack filler",
+      "display_term": "Dr. Fixit Crack-X Paste",
+      "category_id": "waterproofing-chemicals",
+      "is_problem": false,
+      "aliases": [
+        "deewar ki darar",
+        "diwar me crack",
+        "plaster phat gaya",
+        "crack bharne wala",
+        "wall crack paste",
+        "darar kaise bhare",
+        "crack filler",
+        "crack-x",
+        "crack paste",
+        "plaster crack"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pipe tee",
+      "canonical_query": "ashirvad flowguard cpvc equal tee fitting 1 inch",
+      "display_term": "Ashirvad CPVC Equal Tee 1\"",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "pipe ka t",
+        "tee joint",
+        "pipe me se do rasta",
+        "t joint",
+        "cpvc tee",
+        "ashirvad tee",
+        "3 way pipe",
+        "pipe t joint",
+        "equal tee"
+      ]
+    },
+    {
+      "slang_or_misspelling": "brush",
+      "canonical_query": "asian paints trucare synthetic bristle glue paint brush",
+      "display_term": "TruCare Synthetic Application Brush",
+      "category_id": "adhesives-sealants",
+      "is_problem": false,
+      "aliases": [
+        "paint brush",
+        "glue brush",
+        "fevicol brush",
+        "adhesive brush",
+        "burush",
+        "barash",
+        "rang brush",
+        "application brush",
+        "2.5 inch brush"
+      ]
+    },
+    {
+      "slang_or_misspelling": "dhaga tape",
+      "canonical_query": "supreme ptfe teflon thread seal plumbing tape 12mm x 10m",
+      "display_term": "Supreme PTFE Teflon Thread Tape",
+      "category_id": "plumbing-fittings",
+      "is_problem": false,
+      "aliases": [
+        "dhaga tape",
+        "thread tape",
+        "safedi tape",
+        "plumbing dhaga",
+        "nal ka dhaga",
+        "pipe tape",
+        "waterproof tape",
+        "ptfe tape",
+        "teflon"
+      ]
+    },
+    {
+      "slang_or_misspelling": "toti leakage",
+      "canonical_query": "cera brass bib cock water tap teflon tape rubber gasket",
+      "display_term": "Brass Bib Tap & Leakage Repair Kit",
+      "category_id": "plumbing-fittings",
+      "is_problem": true,
+      "problem_title": "Fix Dripping & Leaking Taps in 30 Mins",
+      "bundle_id": "BUNDLE_TAP_LEAK",
+      "aliases": [
+        "toti leakage",
+        "toti tapak rahi hai",
+        "nal tapak raha hai",
+        "nal leakage",
+        "toti leak",
+        "nal drip",
+        "toti slip",
+        "tap leaking",
+        "tap tap paani"
+      ]
+    },
+    {
+      "slang_or_misspelling": "chhat se paani tapak raha",
+      "canonical_query": "dr fixit roofseal crack x paste waterproofing membrane",
+      "display_term": "Roof & Ceiling Waterproofing Seepage Kit",
+      "category_id": "waterproofing-chemicals",
+      "is_problem": true,
+      "problem_title": "Emergency Roof & Ceiling Leakage Fix",
+      "bundle_id": "BUNDLE_SEEPAGE_FIX",
+      "aliases": [
+        "chhat se paani tapak raha",
+        "chhat leakage",
+        "chhat se paani aa raha",
+        "roof leakage",
+        "chhat tapak rahi hai",
+        "ceiling seepage",
+        "roof water drip",
+        "terrace leakage"
+      ]
+    },
+    {
+      "slang_or_misspelling": "taar 1.5mm",
+      "canonical_query": "finolex 1.5 sq mm fr pvc insulated copper wire 90m",
+      "display_term": "Finolex 1.5 sq mm FR Insulated Wire",
+      "category_id": "electricals-wiring",
+      "is_problem": false,
+      "aliases": [
+        "taar 1.5mm",
+        "taar",
+        "bijli ka taar",
+        "copper wire",
+        "1.5mm wire",
+        "wire coil",
+        "red wire",
+        "blue wire",
+        "house wire",
+        "finolex wire"
+      ]
+    },
+    {
+      "slang_or_misspelling": "short circuit",
+      "canonical_query": "havells 16a single pole mcb breaker electrical circuit kit",
+      "display_term": "Havells 16A MCB Circuit Breaker Kit",
+      "category_id": "electricals-wiring",
+      "is_problem": true,
+      "problem_title": "Prevent Short Circuits & Electrical Fires",
+      "bundle_id": "BUNDLE_MCB_TRIP",
+      "aliases": [
+        "short circuit",
+        "sparking ho rahi hai",
+        "fuse ud gaya",
+        "meter trip",
+        "line cut",
+        "chhat fan short",
+        "board jal gaya",
+        "mcb trip"
+      ]
+    },
+    {
+      "slang_or_misspelling": "black tape",
+      "canonical_query": "steelgrip pvc electrical insulation tape wire joint",
+      "display_term": "Steelgrip PVC Electrical Insulation Tape",
+      "category_id": "electricals-wiring",
+      "is_problem": false,
+      "aliases": [
+        "black tape",
+        "bijli tape",
+        "wire tape",
+        "insulation tape",
+        "taar tape",
+        "electric tape",
+        "steelgrip"
+      ]
+    },
+    {
+      "slang_or_misspelling": "loha cutting",
+      "canonical_query": "bosch 4 inch metal inox cutting wheel disc angle grinder",
+      "display_term": "Bosch 4\" Metal & Inox Cutting Wheel Disc",
+      "category_id": "power-tools",
+      "is_problem": false,
+      "aliases": [
+        "loha cutting",
+        "saria cutting",
+        "metal cutter",
+        "grinder wheel",
+        "cutting wheel 4 inch",
+        "blade loha",
+        "patti cutting",
+        "cutting wheel"
+      ]
+    },
+    {
+      "slang_or_misspelling": "drill bit",
+      "canonical_query": "bosch professional sds plus concrete masonry drill bit set",
+      "display_term": "Bosch Professional Concrete Masonry Drill Bit Set",
+      "category_id": "power-tools",
+      "is_problem": false,
+      "aliases": [
+        "drill bit",
+        "dewar ka bit",
+        "concrete bit",
+        "wall drill bit",
+        "patthar bit",
+        "drill panna",
+        "masonry bit"
+      ]
+    },
+    {
+      "slang_or_misspelling": "saria 12mm",
+      "canonical_query": "tata tiscon 550d high strength steel rebar rod construction",
+      "display_term": "Tata Tiscon 550D Steel Rebar (12mm)",
+      "category_id": "steel-aggregates",
+      "is_problem": false,
+      "aliases": [
+        "saria 12mm",
+        "sariya",
+        "loha rod",
+        "tata saria",
+        "12mm rod",
+        "rebar",
+        "pillar saria",
+        "chhat saria",
+        "tata tiscon"
+      ]
+    },
+    {
+      "slang_or_misspelling": "ret / balu",
+      "canonical_query": "screened river sand coarse aggregates civil construction cement",
+      "display_term": "Screened River Sand & Coarse Aggregates",
+      "category_id": "steel-aggregates",
+      "is_problem": false,
+      "aliases": [
+        "ret",
+        "balu",
+        "badarpur",
+        "sand",
+        "chhan ret",
+        "rodi",
+        "concrete sand",
+        "cement sand",
+        "river sand"
+      ]
+    },
+    {
+      "slang_or_misspelling": "safedi / chuna",
+      "canonical_query": "asian paints tractor acrylic exterior interior distemper primer",
+      "display_term": "Exterior Acrylic Distemper / Primer",
+      "category_id": "paints-finishes",
+      "is_problem": false,
+      "aliases": [
+        "safedi",
+        "chuna",
+        "distemper",
+        "whitewash",
+        "white paint",
+        "wall safedi",
+        "primer"
+      ]
+    },
+    {
+      "slang_or_misspelling": "basin leak",
+      "canonical_query": "wash basin waste pipe plumbing cpvc fitting o-ring gasket",
+      "display_term": "Wash Basin & Sanitary Plumbing Fittings",
+      "category_id": "plumbing-fittings",
+      "is_problem": true,
+      "problem_title": "Wash Basin Under-Sink Leakage Restoration",
+      "bundle_id": "BUNDLE_TAP_LEAK",
+      "aliases": [
+        "basin leak",
+        "sink leak",
+        "washbasin leakage",
+        "basin ka paani",
+        "basin pipe",
+        "sink waste pipe",
+        "basin"
+      ]
+    },
+    {
+      "slang_or_misspelling": "pana / wrench",
+      "canonical_query": "taparia heavy duty adjustable pipe wrench plumbing tool",
+      "display_term": "Taparia 10\" Heavy Duty Adjustable Pipe Wrench",
+      "category_id": "power-tools",
+      "is_problem": false,
+      "aliases": [
+        "pana",
+        "panna",
+        "pipe wrench",
+        "plumber pana",
+        "chabi",
+        "adjustable wrench",
+        "spanner",
+        "taparia wrench"
+      ]
+    }
+  ]
+}

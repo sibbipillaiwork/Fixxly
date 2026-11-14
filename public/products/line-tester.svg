@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <rect width="200" height="200" fill="#f8fafc" rx="16"/>
+  <!-- Tester Handle (Translucent Yellow/Amber) -->
+  <g transform="rotate(45 100 100)">
+    <!-- Metal Blade -->
+    <rect x="96" y="20" width="8" height="60" fill="#94a3b8" rx="1"/>
+    <!-- Blade tip -->
+    <polygon points="94,20 106,20 100,10" fill="#64748b"/>
+    <!-- Insulated Sleeve -->
+    <rect x="94" y="45" width="12" height="35" fill="#f59e0b" rx="2"/>
+    <!-- Transparent Plastic Body -->
+    <rect x="88" y="75" width="24" height="80" rx="6" fill="#fbbf24" stroke="#d97706" stroke-width="2" fill-opacity="0.85"/>
+    <!-- Neon Glow Bulb Inside -->
+    <rect x="94" y="95" width="12" height="24" rx="4" fill="#ffedd5" stroke="#ea580c" stroke-width="1.5"/>
+    <circle cx="100" cy="107" r="4" fill="#ea580c"/>
+    <!-- Resistor & Spring -->
+    <line x1="100" y1="122" x2="100" y2="142" stroke="#475569" stroke-width="3" stroke-dasharray="2 3"/>
+    <!-- Top Brass Contact Cap & Clip -->
+    <rect x="90" y="153" width="20" height="15" rx="3" fill="#ca8a04"/>
+    <rect x="84" y="145" width="6" height="20" rx="2" fill="#94a3b8"/>
+  </g>
+  <text x="100" y="185" font-family="system-ui, sans-serif" font-size="10" font-weight="800" fill="#475569" text-anchor="middle" letter-spacing="0.5">TAPARIA 500V TESTER</text>
+</svg>

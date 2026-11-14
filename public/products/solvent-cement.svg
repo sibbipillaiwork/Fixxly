@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </radialGradient>
+    <linearGradient id="metalCan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="35%" stop-color="#f8fafc"/>
+      <stop offset="70%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <filter id="canSh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <g filter="url(#canSh)" transform="translate(100, 35)">
+    <!-- Metal Screw Cap with Dauber -->
+    <rect x="70" y="30" width="60" height="35" rx="6" fill="#94a3b8" stroke="#475569" stroke-width="2"/>
+    <line x1="75" y1="42" x2="125" y2="42" stroke="#475569" stroke-width="2"/>
+    <line x1="75" y1="52" x2="125" y2="52" stroke="#475569" stroke-width="2"/>
+
+    <!-- Can Cone Neck -->
+    <path d="M 60 75 L 140 75 L 175 105 L 25 105 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+
+    <!-- Cylindrical Can Body -->
+    <rect x="25" y="105" width="150" height="195" rx="8" fill="url(#metalCan)" stroke="#475569" stroke-width="2"/>
+
+    <!-- Orange Label Body -->
+    <rect x="25" y="125" width="150" height="140" fill="#ea580c"/>
+    
+    <text x="100" y="152" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">ASTRAL</text>
+    <text x="100" y="175" font-family="Inter, system-ui, sans-serif" font-size="18" font-weight="900" fill="#fde047" text-anchor="middle">WELD-ON</text>
+    <text x="100" y="196" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="900" fill="#ffffff" text-anchor="middle">714 HEAVY</text>
+    <text x="100" y="215" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">CPVC SOLVENT CEMENT</text>
+    <text x="100" y="245" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">250 ml</text>
+  </g>
+
+  <rect x="90" y="345" width="220" height="28" rx="14" fill="#ea580c"/>
+  <text x="200" y="363" font-family="Inter, system-ui, sans-serif" font-size="10.5" font-weight="800" fill="#ffffff" text-anchor="middle">FAST SETTING HIGH PRESSURE</text>
+</svg>

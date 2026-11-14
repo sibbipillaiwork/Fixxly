@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f1f5f9"/></radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.18"/></filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="135" y="80" width="130" height="240" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+    <rect x="155" y="145" width="90" height="75" rx="6" fill="#1e293b"/>
+    <rect x="170" y="155" width="60" height="30" rx="4" fill="#ff6b00"/>
+    <rect x="150" y="255" width="100" height="40" rx="4" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="200" y="278" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="900" fill="#0b1d3a" text-anchor="middle">C16</text>
+  </g>
+  <rect x="90" y="335" width="220" height="34" rx="17" fill="#0b1d3a" opacity="0.95"/>
+  <text x="200" y="357" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#ffffff" text-anchor="middle">HAVELLS 16A MCB</text>
+</svg>

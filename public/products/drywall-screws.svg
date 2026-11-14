@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </radialGradient>
+    <linearGradient id="screwMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="screwSh" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+
+  <!-- Main Screw 1 (Diagonal Center) -->
+  <g filter="url(#screwSh)" transform="translate(80, 50) rotate(35 120 120)">
+    <!-- Bugle Head -->
+    <path d="M 90 40 C 90 55, 110 65, 115 75 L 125 75 C 130 65, 150 55, 150 40 Z" fill="url(#screwMetal)" stroke="#0f172a" stroke-width="2"/>
+    <ellipse cx="120" cy="40" rx="30" ry="10" fill="#334155" stroke="#0f172a" stroke-width="2"/>
+    <!-- Phillips Cross -->
+    <line x1="120" y1="34" x2="120" y2="46" stroke="#cbd5e1" stroke-width="3"/>
+    <line x1="110" y1="40" x2="130" y2="40" stroke="#cbd5e1" stroke-width="3"/>
+
+    <!-- Threaded Shaft -->
+    <path d="M 115 75 L 115 220 L 120 240 L 125 220 L 125 75 Z" fill="url(#screwMetal)"/>
+    <!-- Serrated Spiral Threads -->
+    <path d="M 110 95 L 130 85 M 110 115 L 130 105 M 110 135 L 130 125 M 110 155 L 130 145 M 110 175 L 130 165 M 110 195 L 130 185 M 112 215 L 128 205" stroke="#94a3b8" stroke-width="3"/>
+  </g>
+
+  <!-- Secondary Screw 2 (Angled Behind) -->
+  <g filter="url(#screwSh)" transform="translate(140, 90) rotate(-40 100 100)">
+    <path d="M 90 40 C 90 55, 110 65, 115 75 L 125 75 C 130 65, 150 55, 150 40 Z" fill="url(#screwMetal)"/>
+    <ellipse cx="120" cy="40" rx="26" ry="8" fill="#334155"/>
+    <path d="M 115 75 L 115 200 L 120 220 L 125 200 L 125 75 Z" fill="url(#screwMetal)"/>
+    <path d="M 110 95 L 130 85 M 110 120 L 130 110 M 110 145 L 130 135 M 110 170 L 130 160" stroke="#94a3b8" stroke-width="3"/>
+  </g>
+
+  <rect x="90" y="340" width="220" height="30" rx="15" fill="#0b1d3a"/>
+  <text x="200" y="360" font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">GYPROC PROX • BOX OF 100</text>
+</svg>

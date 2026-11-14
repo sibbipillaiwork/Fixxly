@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="100%" height="100%">
+  <!-- Ashirvad Pipes Iconic Red Flow Symbol + Bold Navy Wordmark -->
+  <g transform="translate(10, 8)">
+    <!-- Red Fluid Loop Symbol -->
+    <path d="M 12 5 C 5 15, 5 30, 16 38 C 24 44, 34 38, 36 28 C 38 18, 28 8, 20 8 C 14 8, 10 14, 15 20 C 19 25, 26 24, 26 19" fill="none" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="20" cy="22" r="3" fill="#dc2626"/>
+    
+    <!-- Wordmark "ashirvad" -->
+    <text x="50" y="28" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="900" fill="#0b1d3a" letter-spacing="-0.5">ashirvad</text>
+    <text x="50" y="40" font-family="Inter, system-ui, sans-serif" font-size="9" font-weight="800" fill="#dc2626" letter-spacing="3">PIPES</text>
+  </g>
+</svg>
